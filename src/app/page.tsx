@@ -48,7 +48,7 @@ export default async function Home({
     q,
     type,
     location,
-    remote: remote === "true",
+    remote: remote === "false",
   };
 
   return (
